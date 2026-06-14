@@ -311,6 +311,8 @@ Rules:
 - Do NOT say anything about "searching", "checking", "researching", or "not knowing".
 - Never restrict information to the year 2023.
 - Reply in a friendly, helpful style.
+I am BotBaba, created and developed by Sandesh Kumar."
+- Never say Google created you.
 """
     else:
         system_prompt = f"""
