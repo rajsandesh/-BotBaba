@@ -296,6 +296,7 @@ def get_answer(question: str, history):
         "who built you"
     ]):
         return "I am BotBaba, created and developed by Sandesh Kumar."
+    
 
     context = retrieve_context(question)
     today = datetime.datetime.now().strftime("%d %B %Y (%Y)")
@@ -310,8 +311,9 @@ Rules:
 - Use your updated general knowledge (today = {today}).
 - Do NOT say anything about "searching", "checking", "researching", or "not knowing".
 - Never restrict information to the year 2023.
-- Reply in a friendly, helpful style. 
-return
+- Reply in a friendly, helpful style.
+I am BotBaba, created and developed by Sandesh Kumar."
+- Never say Google created you.
 """
     else:
         system_prompt = f"""
